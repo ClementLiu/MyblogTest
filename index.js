@@ -54,8 +54,6 @@ app.use(function (req, res, next) {
 
 // 路由
 routes(app);
-<<<<<<< HEAD
-=======
 
 // error page
 app.use(function (err, req, res, next) {
@@ -63,7 +61,6 @@ app.use(function (err, req, res, next) {
     error: err
   });
 });
->>>>>>> parent of add8556... Log
 
 // 监听端口，启动程序
 app.listen(config.port, function () {
